@@ -2,7 +2,7 @@
 
 # FastReport Open Source中文文档
 
-## 什么事FastReport?
+## 什么是FastReport?
 
 [FastReport](https://github.com/FastReports/FastReport) 提供了一个针对 .NET Core 2.x/.Net Framework 4.x生成报表的开源项目。可以在MVC、Web API应用中使用FastReport。 FastReport Open Source项目基于FastReport.Net.
 
