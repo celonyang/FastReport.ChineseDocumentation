@@ -1,18 +1,18 @@
-# 1. Introduction
+# 1. 简介
 
-## What is FastReport?
+## 什么事FastReport?
 
-FastReport provides open source report generator for .NET Core 2.x/.Net Framework 4.x. You can use the FastReport in MVC, Web API applications.
+FastReport提供了一个针对 .NET Core 2.x/.Net Framework 4.x平台的报表生成工具。可以宰MVC、 Web API应用中使用FastReport。
 
 [![Image of FastReport](images/FastReport-screenshot2-small.png)](images/FastReport-screenshot2.png)
 
-## Features
+## 特性
 
-FastReport is written in C# and it is compatible with .NET Standard 2.0 and higher. Extendable FastReport architecture allows creating your own objects, export filters, wizards and DB engines.
+FastReport是使用C#开发，兼容.NET Standard 2.0及以上。可扩展的FastReport体系结构，允许创建自己的对象、过滤数据导出、数据库引擎和向导。
 
 [![Image of FastReport](images/FastReport-screenshot1-small.png)](images/FastReport-screenshot1.png)
 
-### Report Objects
+### 报告对象
 
 - FastReport is a band-oriented report generator. There are 13 types of bands available: Report Title, Report Summary, Page Header, Page Footer, Column Header, Column Footer, Data Header, Data, Data Footer, Group Header, Group Footer, Child and Overlay. In addition, sub-reports are fully supported. 
 
