@@ -10,7 +10,7 @@
 
 以下是FastReport Open Source文档。 
 
-##内容目录
+## 内容目录
 
 ### 1. [说明](Introduction.md)
 
