@@ -12,7 +12,7 @@
 
 ## 内容目录
 
-### 1. [说明](Introduction.md)
+### 1. [简介](Introduction.md)
 
 ### 2. [原理](Fundamentals.md)
 #### 2.1. [报表](Report.md)
