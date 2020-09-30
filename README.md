@@ -1,64 +1,62 @@
-[![Gitter](https://badges.gitter.im/FastReports/FastReport.svg)](https://gitter.im/FastReports/FastReport?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
+才[![Gitter](https://badges.gitter.im/FastReports/FastReport.svg)](https://gitter.im/FastReports/FastReport?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
-# FastReport Open Source Documentation
+# FastReport Open Source中文文档
 
-## What is FastReport?
+## 什么事FastReport?
 
-[FastReport](https://github.com/FastReports/FastReport) provides open source report generator for .NET Core 2.x/.Net Framework 4.x. You can use the FastReport in MVC, Web API applications. FastReport Open Source is based on the FastReport.Net project.
+[FastReport](https://github.com/FastReports/FastReport) 提供了一个针对 .NET Core 2.x/.Net Framework 4.x生成报表的开源项目。可以在MVC、Web API应用中使用FastReport。 FastReport Open Source项目基于FastReport.Net.
 
-## About Repository
+## 关于仓库
 
-Here is the FastReport Open Source Documentation. 
+以下是FastReport Open Source文档。 
 
-We wish to draw up your attention to the fact that Documentation is under construction.
+##内容目录
 
-## Table of Contents
+### 1. [说明](Introduction.md)
 
-### 1. [Introduction](Introduction.md)
-
-### 2. [Fundamentals](Fundamentals.md)
-#### 2.1. [The Report](Report.md)
-#### 2.2. [Report Pages](ReportPages.md)
+### 2. [原理](Fundamentals.md)
+#### 2.1. [报表](Report.md)
+#### 2.2. [报表页](ReportPages.md)
 #### 2.3. [Bands](Bands.md)
-#### 2.4. [Report Objects](ReportObjects.md)
+#### 2.4. [报表对象](ReportObjects.md)
 
-### 3. [Data](Data.md)
-#### 3.1. [Registering Data](RegisteringData.md)
-#### 3.2. [Report Parameters](ReportParameters.md)
-#### 3.3. [Query Parameters](QueryParameters.md)
-#### 3.4. [System Variables](SystemVariables.md)
-#### 3.5. [Totals](Totals.md)
+### 3. [数据](Data.md)
+#### 3.1. [注册数据](RegisteringData.md)
+#### 3.2. [报表参数](ReportParameters.md)
+#### 3.3. [查询参数](QueryParameters.md)
+#### 3.4. [系统变量](SystemVariables.md)
+#### 3.5. [合计](Totals.md)
 
-### 4. [Expressions](Expressions.md)
+### 4. [表达式](Expressions.md)
 
-### 5. [Script](Script.md)
+### 5. [脚本](Script.md)
 
-### 6. [Report Creation](ReportCreation.md)
-#### 6.1. [FastReport Designer Community Edition](FastReportDesignerCommunityEdition.md)
-#### 6.2. [FastReport Online Designer](FastReportOnlineDesigner.md)
-#### 6.3. [Report Template File Structure](ReportTemplateFileStructure.md)
-#### 6.5. [Creating a Report by Using Code](CreatingReportUsingCode.md)
+### 6. [创建报表](ReportCreation.md)
+#### 6.1. [报表设计器社区版](FastReportDesignerCommunityEdition.md)
+#### 6.2. [在线报表设计器](FastReportOnlineDesigner.md)
+#### 6.3. [报表模板文件结构](ReportTemplateFileStructure.md)
+#### 6.5. [使用代码创建报表](CreatingReportUsingCode.md)
 
-### 7. [Using the Report](UsingReport.md)
-#### 7.1. [Storing and Loading a Report](StoringLoadingReport.md)
-#### 7.2. [Running a Report](RunningReport.md)
-#### 7.3. [Configuring the Environment](ConfiguringEnvironment.md)
-#### 7.4. [Passing Own Connection String](PassingOwnConnectionString.md)
-#### 7.5. [Passing Custom SQL](PassingCustomSQL.md)
-#### 7.6. [Reference to a Report Object](ReferenceReportObject.md)
+### 7. [报表使用](UsingReport.md)
+#### 7.1. [保存和加载报表](StoringLoadingReport.md)
+#### 7.2. [报表调用](RunningReport.md)
+#### 7.3. [环境配置](ConfiguringEnvironment.md)
+#### 7.4. [配置连接字符串](PassingOwnConnectionString.md)
+#### 7.5. [自定义SQL](PassingCustomSQL.md)
+#### 7.6. [报表对象参照](ReferenceReportObject.md)
 
-### 8. [Exporting](Exporting.md)
+### 8. [导出](Exporting.md)
 
-### 9. [WebReport](WebReport.md)
+### 9. [web报表](WebReport.md)
 
-### [APPENDIX I: Compilation and Installation](CompilationInstallation.md)
-### [APPENDIX II: Examples](Examples.md)
-### [APPENDIX III: Class Reference](https://fastreports.github.io/FastReport.Documentation/ClassReference/api/FastReport.html)
-### [APPENDIX IV: The Feature Comparison Table for FastReport Open Source, FastReport Core, FastReport .Net](COMPARISON.md)
+### [附件 I: 编译与安装](CompilationInstallation.md)
+### [附件 II: 实例](Examples.md)
+### [附件 III: 类型参考](https://fastreports.github.io/FastReport.Documentation/ClassReference/api/FastReport.html)
+### [附件 IV: FastReport Open Source, FastReport Core, FastReport .Net对比](COMPARISON.md)
 
 ### [LICENSE](LICENSE.md)
 
-## Links
+## 链接
 
 [FastReport Open Source Home](https://github.com/FastReports/FastReport "Click for visiting the FastReport Open Source GitHub")
 
