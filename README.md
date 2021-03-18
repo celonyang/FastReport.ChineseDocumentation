@@ -1,4 +1,4 @@
-才[![Gitter](https://badges.gitter.im/FastReports/FastReport.svg)](https://gitter.im/FastReports/FastReport?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
+[![Gitter](https://badges.gitter.im/FastReports/FastReport.svg)](https://gitter.im/FastReports/FastReport?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
 # FastReport Open Source中文文档
 
