@@ -1,10 +1,10 @@
 # 6. Report Creation
 
-### 6.1. [FastReport Designer Community Edition](FastReportDesignerCommunityEdition.md)
-### 6.2. [FastReport Online Designer](FastReportOnlineDesigner.md)
-### 6.3. [Report Template File Structure](ReportTemplateFileStructure.md)
-### 6.4. [Creating a Report by Using Code](CreatingReportUsingCode.md)
+### 6.1. [FastReport设计器社区版](FastReportDesignerCommunityEdition.md)
+### 6.2. [FastReport在线设计器](FastReportOnlineDesigner.md)
+### 6.3. [报表模板文件结构](ReportTemplateFileStructure.md)
+### 6.4. [使用代码创建报表](CreatingReportUsingCode.md)
 
 ---
 
-[Script](Script.md) | [Top Page](README.md) | [FastReport Designer Community Edition](FastReportDesignerCommunityEdition.md)
+[脚本](Script.md) | [首页](README.md) | [FastReport设计器社区版](FastReportDesignerCommunityEdition.md)
