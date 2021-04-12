@@ -1,15 +1,15 @@
-# 2.1. The Report
+# 2.1. 报表
 
-The report building process can be represented as follows:
+报表生成过程：
 
-![Report Engine](images/ReportEngine.png)
+![报表引擎](images/ReportEngine.png)
 
-Report template (later-Report) - this is, what we see in the Designer. Reports are saved in files with an extension .FRX. A Report can be created with the help of Designer or programmatically.
+这是报表模板 (later-Report)，从设计器中可以看到。报告保存在扩展名为. frx的文件。可以在设计器或以编程方式创建报表。
  
-Data can be any: this is data, defined in the program, or data from DBMS, for example, MS SQL. FastReport can also work with  business-logic objects (later - business-objects).
+数据可以是任意的:这是程序中定义的数据，或者来自DBMS(例如MS-SQL)的数据。FastReport还可以使用业务逻辑对象(以后称为业务对象)。
 
-Prepared Report - this is what we see in the preview window (for Desktop application) or in web browser. Prepared report can be previewed, printed, saved in one of the supported formats (.png, jpg, .docx, .xlsx, .pdf  and others).
+报告预览-可在预览窗口(桌面应用程序)或网页浏览器中看到的。报告可以预览、打印、保存为支持的格式(png、jpg、。docx、。xlsx、。pdf等)。
 
 ---
 
-[Fundamentals](Fundamentals.md) | [Top Page](README.md) | [Report Pages](ReportPages.md)
+[基本原理](Fundamentals.md) | [首页](README.md) | [报表](ReportPages.md)
