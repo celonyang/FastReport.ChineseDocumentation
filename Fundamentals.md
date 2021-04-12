@@ -1,10 +1,10 @@
-# 2. Fundamentals
+# 2. 基本原理
 
-In this chapter we will learn the principles of working with a report in the FastReport. 
+在本章中，我们将学习FastReport中使用报表的基本原理。 
 
-We will also take a close look at report elements such as report pages, bands, and report objects.
+还将仔细查看报表元素，如报表页面、条带和报表对象。
 
-![FastReport Designer Community Edition](images/FastReportDesignerCE.png)
+![FastReport社区版报表设计器](images/FastReportDesignerCE.png)
 
 ---
 
