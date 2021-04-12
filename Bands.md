@@ -1,51 +1,51 @@
-# 2.3. Bands
+# 2.3. 报表页面段
 
-The band is an object which is located directly on the report page and is a container for other objects like "Text", "Picture" and others.
+报表页面段是报表页面上的对象，是其它对象的容器（入文本、图片等）；
 
-In all, in FastReport there are 13 types of bands. Depending on its type, the band is printed in a certain place in the report.
+在FastReport中总共有13种类型页面段对象。根据它的类型，页面段被打印在报告的某个地方。
 
-| Band | How it's printed |
+| 页面段 | 怎样打印 |
 |:-|:-|
-| Report Title | It is printed once at the very beginning of the report. You can choose the order of printing - before the "Page Header" band or after it - with the help of the "TitleBeforeHeader" page property. Changing this property can be done with the help of "Properties" window. By default, property is equal to true, that is, report title is printed before page header. |
-| Report Summary | It is printed once at the end of the report, after the last data row, but before the "Page Footer" band. |
-| Page Header | It is printed on top of every page of the report. |
-| Page Footer | It is printed at the bottom of every page of the report. |
-| Column Header | This band is used when printing a multi-columned report (when the number of columns indicated in the page setup > 1). It is printed on top of every column after the Page Header band. |
-| Column Footer | Printed at the bottom of every column, before the Page Footer band. |
-| Data | This band is connected to the data source and is printed as many times as there are rows in the source. |
-| Data Header | This band is connected to the "Data" band and is printed before the first data row. |
-| Data Footer | This band is connected to the "Data" band and is printed after the last data row. |
-| Group Header | It is printed at the beginning of every group, when the value of the group condition changes. |
-| Group Footer | It is printed at the end of every group. |
-| Child | This band can be connected to any band, including another child band. It is printed immediately after its parent. |
-| Overlay | Printed as a background on every report page. |
+| Report Title|它在报告的开头打印一次。在“TitleBeforeHeader”页面属性中，您可以选择打印的顺序——在“页眉”之前或之后。可以在“属性”窗口更改此属性。默认情况下，该属性为true，也就是说，报表标题在页眉之前打印。|
+| report summery | 在报告的末尾打印一次，在最后一个数据行之后，但在“页脚”之前。|
+| page Header | 打印在报告页的顶部。 |
+| page Footer | 打印在报告页的底部。 |
+| culumn Header | 当打印多列报表时(当页面设置中显示的列数为> 1时)，这个页面段被用于打印。它打印在页头之后的每一列的顶部。 |
+| culumn Footer | 打印在每一列的底部，在页脚之前。 |
+| data | 这个页面段连接到数据源，并根据数据源中有多少行打印多少次。 |
+| data Header | 这个页面段连接到数据源，并在第一行数据之前打印。 |
+| data Footer | 在最后一行数据后打印。 |
+| Group Header | 当分组条件发生变化时，它将在每个组的开头打印。 |
+| Group Footer | 打印在每个分组的底部 |
+| Child | 该页面段可以连接到任何页面段，包括另一个子页面。它会在其父节点之后立即打印出来。 |
+| Overlay | 作为每一页报告的背景打印。 |
 
 
-So, there are several bands placed on the page. How will FastReport compose a prepared report? Let us look at the following example:
+因此，页面上有几个页面段。FastReport将如何生成一份报告?让我们来看看下面的例子:
 
 ![](images/bandsequence.png)
 
-The "Report Title" band will be printed first. The "Page Header" band will be printed immediately after it. Further, the "Data" band will be printed as many times as there are rows in the data source, to which the band is connected. After all the rows of the "Data" band  have been printed, the "Report Summary" band is printed and at the bottom of the page - the "Page Footer" band. Printing of the report ends with this. A prepared report will be looking something like this:
+首先将打印“Report Title”。“page Header”将在它之后立即打印出来。而且，“data”有多少数据，就打印多少次。在打印完“data”的所有行之后，将打印出“report summery”，并在页面的底部——“page Footer”。报告的打印结果是这样的。预览报告应该是这样的:
 
 ![](images/bandsequenceresult.png)
 
-In the process of printing, FastReport checks if there is enough space on the current page of the prepared report, so that the band can be printed. If there isn’t enough space, the following occurs:
+在打印的过程中，FastReport会检查准备好的报告的当前页是否有足够的空间，以便可以打印所有页面段。如果没有足够的空间，会发生以下情况:
 
-- page footer is printed;
-- a new page is added;
-- page header is printed;
-- continues to print the band which did not fit on the previous page.
+- 打印page footer;
+- 新增一页;
+- 打印page header;
+- 按照前一页的模板打印新的一页.
 
-Every band has several useful properties, which affect the printing process. 
+每个页面段都有几个有用的特性，这些特性影响着印刷过程。
 
-| Property | Description |
+| 属性 | 说明 |
 |:-|:-|
-| `CanGrow`, `CanShrink` | These properties determine whether a band can grow or shrink depending on the size of the objects contained in the band. If both properties are disabled, the band will always have the size specified in the designer. Read more about this in the "Report Creation" chapter. |
-| `CanBreak` | If the property is enabled, FastReport tries to print a part of the band’s contents on the available space, that is, "break" the band. Read more about this in the "Report Creation" chapter. |
-| `StartNewPage` | Printing a band with such property begins on a new page. This property is usually used when printing groups; that is, every group is printed on a new page. |
-| `PrintOnBottom` | A band with this property is printed at the bottom of the page, before the "Page Footer" band .This can be useful when printing certain documents, where the total sum is supposed to be printed at the bottom of the page. |
-| `RepeatOnEveryPage` | The bands - "Data Header", "Data Footer", "Group Header" and "Group Footer" - have got this property. This type of band will be printed on each new page, when data printing is being done. Read more about this in the "Report Creation" chapter. |
+| `CanGrow`, `CanShrink` | 这些属性决定一个页面段是可以根据包含在页面段中的对象的大小增长还是收缩。如果这两个属性都被禁用，则该条带将始终具有设计器中指定的大小。在“报告创建”一章中阅读更多相关内容。 |
+| `CanBreak` | 如果启用该属性，FastReport将尝试在可用空间上打印页面段的一部分内容，即“break”页面段。在“报告创建”一章中阅读更多相关内容。 |
+| `StartNewPage` | 定义分组报表打印时，所有分组数据都打印在新的一页上。 |
+| `PrintOnBottom` | 此属性定义页面段被打印在页面底部，在“Page Footer”之前，这在打印某些文档时很有用，因为总数应该在页面底部打印。|
+| `RepeatOnEveryPage` | "Data Header", "Data Footer", "Group Header" 和 "Group Footer" - 没有这个属性。 当数据打印完成时，这种页面段将打印在每一个新页面上。在“报告创建”一章中阅读更多相关内容。 |
 
 ---
 
-[Bands](Bands.md) | [Top Page](README.md) | [Report Objects](ReportObjects.md)
+[页面段](Bands.md) | [首页](README.md) | [报表对象](ReportObjects.md)
