@@ -14,51 +14,51 @@ FastReport是使用C#开发，兼容.NET Standard 2.0及以上。可扩展的Fas
 
 ### 报告对象
 
-- FastReport is a band-oriented report generator. There are 13 types of bands available: Report Title, Report Summary, Page Header, Page Footer, Column Header, Column Footer, Data Header, Data, Data Footer, Group Header, Group Footer, Child and Overlay. In addition, sub-reports are fully supported. 
+- FastReport是一个带幅面段的报表生成器。有13种类型的幅面段可用:报告标题，报告摘要，页眉，页脚，列眉，列脚，数据页眉，数据页脚，组眉，组页脚，子和覆盖。此外，完全支持子报告。. 
 
-- A wide range of band types allows creating any kind of report: list, master-detail, group, multi-column, master-detail-detail and many more.
+- 可创建报表类型: 清单报表,主从报表, 分组报表, 多列, 带子表的主从报表等.
 
-- Wide range of available report objects : text, picture, line, shape, barcode, matrix, table, checkbox.
+- 报表可用的类型对象: 文本, 图片, 线, 形状, 条码, 矩阵, 数据表, 选择框.
 
-- Reports can consist of several design pages, which allows reports to contain a cover, the data and a back cover, all in one file.
+- 报表可以由几个设计页面组成，这些页面允许报表包含一个封面、数据和一个封底，所有这些都在一个文件中。
 
-- The Table object allows building a tabular report with variable number of rows and/or columns, just like in MS Excel. Aggregate functions are also available.
+- Table对象允许构建具有可变行数和/或列数的表格式报告，就像Excel一样。也可用聚合函数。
 
-- Powerful, fully configurable Matrix object that can be used to print pivot tables.
+- 支持强大的，完全可配置的矩阵对象，可以用来打印数据透视表。
 
-- Report inheritance. For creating many reports with common elements such as titles, logos or footers you can place all the common elements in a base report and inherit all other reports from this base.
+- 报告可以继承。为了创建许多具有共同元素(如标题、徽标或页脚)的报告，您可以将所有共同元素放在基本报告中，并从这个基本报告中继承所有其他报告。
 
-### Data Sources
+### 数据源
 
-- You can get data from XML, CSV, Json, MS SQL, MySql, Oracle, Postgres, MongoDB, Couchbase, RavenDB, SQLite.
+- 数据源支持： XML, CSV, Json, MS SQL, MySql, Oracle, Postgres, MongoDB, Couchbase, RavenDB, SQLite.
 
-- FastReport has ability to get data from business objects of IEnumerable type. 
+- FastReport有从业务对象的IEnumerable类型中获取数据的能力。 
 
-- Report can contain data sources (tables, queries, DB connections). 
+- Report可以包含数据源 (tables, queries, DB connections). 
 
-- Thus you can not only use application-defined datasets but also connect to any database and use tables and queries directly within the report.
+- 因此，您不仅可以使用应用程序定义的数据集，还可以连接到任何数据库，并在报表中直接使用表和查询。
 
-### Internal Scripting
+### 内部脚本
 
-FastReport has a built-in script engine that supports two .NET languages, C# and VB.NET. You can use all of the .NET power in your reports to perform complex data handling and much more.
+FastReport有一个内置的脚本引擎，支持两种。net语言，c#和VB.NET。您可以在报表中使用所有的. net功能来执行复杂的数据处理等。
 
-## Working with report templates
+## 报表模板
 
-You can make a report template in several ways:
+可以通过多种方式制作报表模板：
 
-- Creating report from code.
+- 使用代码创建报表.
 
-- Developing report template as XML file.
+- 利用XML文件创建报表.
 
-- Using the FastReport Online Designer.
+- 使用在线设计器创建报表.
 
-- Using the FastReport Designer Community Edition (freeware). It can be downloaded from [Fast Report releases page](https://github.com/FastReports/FastReport/releases).
+- 使用FastReport社区版创建(freeware).社区版下载地址 [Fast Report releases page](https://github.com/FastReports/FastReport/releases).
 
 [![Image of FastReport](images/FastReport-screenshot3-small.png)](images/FastReport-screenshot3.png)
 
-## Exporting
+## 导出
 
-FastReport Open Source [can save](Exporting.md) documents in HTML, BMP, PNG, JPEG, GIF, TIFF, EMF.
+FastReport开源版本 [可以保存的文档类型](Exporting.md) ： HTML, BMP, PNG, JPEG, GIF, TIFF, EMF.
 
 ---
 
